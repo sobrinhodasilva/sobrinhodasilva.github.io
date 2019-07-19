@@ -1,5 +1,6 @@
 html {
-  background: url(../src/sea.jpg) no-repeat center center fixed;
+  background: url(../src/sea.jpg) no-repeat center center fixed ;
+;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,6 +18,9 @@ body, html {
   margin: auto;
   height: 99%
   vertical-align:middle;
+}
+.center b {
+  color: purple;
 }
 h1{
   font-size: 48px;
