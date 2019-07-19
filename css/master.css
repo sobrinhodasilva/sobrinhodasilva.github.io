@@ -15,8 +15,39 @@ body, html {
 
 .center  {
   margin: auto;
+  height: 99%
+  vertical-align:middle;
 }
 h1{
   font-size: 48px;
   color: rgb(70, 78, 148);
+}
+.qrCode{
+  position: absolute;
+ bottom: 10px;
+ right: 10px;
+}
+.qrCode img{
+  width: 98px;
+  height: 128px;
+}
+.social{
+  position: relative;
+  bottom: 0px;
+  margin: auto;
+}
+.social i{
+  font-size: 64px;
+  color: rgb(85, 26, 139) !important;
+}
+.social ul{
+  list-style-type: none;
+  margin: 20px;
+}
+.social ul li {
+  display: inline;
+  padding: 15px;
+}
+.social a{
+  text-decoration: none;
 }
