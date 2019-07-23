@@ -1,23 +1,39 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html, body{
+  font-family: Helvetica;
+}
+body {
+  margin: 0;
+  font-weight: 500;
+  /* font-family: 'HelveticaNeue'; */
+}
+
+section {
+  width: 100%;%;
+  display: grid;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+}
+.content {
+  vertical-align: middle;
+  display: grid;
+}
+
+.home {
   background: url(../src/sea.jpg) no-repeat center center fixed ;
-;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-body, html {
-  height: 100%;
-  display: grid;
-  color: white;
-  font-family: Helvetica;
-}
-
 .center  {
   margin: auto;
-  height: 99%
-  vertical-align:middle;
+
 }
 .center b {
   color: purple;
@@ -39,6 +55,7 @@ h1{
   position: relative;
   bottom: 0px;
   margin: auto;
+  text-align: center;
 }
 .social i{
   font-size: 64px;
@@ -46,7 +63,8 @@ h1{
 }
 .social ul{
   list-style-type: none;
-  margin: 20px;
+  margin: 40px 0;
+  padding: 0;
 }
 .social ul li {
   display: inline;
